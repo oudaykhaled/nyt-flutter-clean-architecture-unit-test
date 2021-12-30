@@ -6,7 +6,6 @@ import '../../../common/constant.dart';
 import '../../data/model/article.dart';
 
 class ArticleListItem extends StatelessWidget {
-
   const ArticleListItem({
     Key? key,
     required this.article,
@@ -17,7 +16,9 @@ class ArticleListItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String imageUrl = defaultImage;
-    if (article.media.isNotEmpty && article.media.first.metaData.isNotEmpty) {
+    if (article.media.isNotEmpty &&
+        article.media.first.metaData.isNotEmpty &&
+        article.media.first.metaData.first.url.contains('http')) {
       imageUrl = article.media.first.metaData.first.url;
     }
 
