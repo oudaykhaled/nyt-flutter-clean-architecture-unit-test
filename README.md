@@ -9,7 +9,6 @@ To test this API, you can use all-sections for the section path component in the
 
 [http://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/7.json?api-key=sample-key](http://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/7.json?api-key=sample-key)
 
-Note: App icon generated using [https://romannurik.github.io/AndroidAssetStudio](https://romannurik.github.io/AndroidAssetStudio)
 ![alt text](https://github.com/oudaykhaled/nyt-flutter-clean-architecture-unit-test/blob/master/readme_res/nyt-flutter-emulator.gif?raw=true)
 ## Requirements
 - Android Studio
