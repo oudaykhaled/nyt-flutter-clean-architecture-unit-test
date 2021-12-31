@@ -361,6 +361,8 @@ These steps should be followed to automated the app build using Bitrise:
 - In `workflows` tab, and select `<>bitrise.yaml` tab.
 - Choose `Store in app repository` to read the repository yaml file.
 
+#### This repository already attached to a [public bitrise project](https://app.bitrise.io/app/1ba1887b850ddd8a#).
+
 # License
 
 Apache License, Version 2.0
