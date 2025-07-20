@@ -10,6 +10,7 @@ This learning material is organized into progressive modules that build upon eac
 
 ## 🎯 **Getting Started**
 
+0. **[Knowledge Prerequisites](00-knowledge-prerequisites.md)** - Essential OOP concepts and Dart features
 1. **[Prerequisites & Setup](01-prerequisites-setup.md)** - Environment setup and requirements
 2. **[Project Overview](02-project-overview.md)** - Understanding what we're building
 
